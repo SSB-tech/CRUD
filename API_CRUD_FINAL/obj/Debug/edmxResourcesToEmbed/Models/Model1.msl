@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="api_crud_final_dbModelStoreContainer" CdmEntityContainer="api_crud_final_dbEntities">
+    <EntitySetMapping Name="apitbls">
+      <EntityTypeMapping TypeName="api_crud_final_dbModel.apitbl">
+        <MappingFragment StoreEntitySet="apitbl">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="designation" ColumnName="designation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
